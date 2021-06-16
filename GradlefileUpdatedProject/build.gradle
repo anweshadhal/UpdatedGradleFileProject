@@ -57,6 +57,13 @@ dependencies {
 	testImplementation group: 'com.jayway.restassured', name: 'rest-assured', version: '2.5.0'
 }
 
+task runExchangeRateAPI(type: Test) {
+	testLogging.showStandardStreams=true
+	systemProperties System.getProperties()
+	exclude('**/Library.java')
+	include "**/runners/ExchangeRateRunner.class"
+}
+
 test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
