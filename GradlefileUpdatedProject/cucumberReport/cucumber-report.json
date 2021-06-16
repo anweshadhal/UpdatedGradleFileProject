@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-06-09T16:55:27.675Z",
+        "start_timestamp": "2021-06-16T18:12:52.067Z",
         "line": 14,
         "name": "To get the exchange rate of all countries",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 517000000,
+              "duration": 389000000,
               "status": "passed"
             },
             "line": 8,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 13604000000,
+              "duration": 15747000000,
               "status": "passed"
             },
             "line": 9,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 16000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 10,
@@ -65,7 +65,7 @@
       }
     ],
     "name": "To verify the exchange rate of all countries",
-    "description": "  User wants to see the exchange rate of all countries",
+    "description": "  User wants to see the exchange rate of all the countries",
     "id": "to-verify-the-exchange-rate-of-all-countries",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/ExchangeRateAPI.feature",
