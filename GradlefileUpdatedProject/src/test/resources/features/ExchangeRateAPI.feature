@@ -1,7 +1,7 @@
 #Author: Anwesha Dhal
 @ExchangeRate
 Feature: To verify the exchange rate of all countries
-  User wants to see the exchange rate of all countries
+  User wants to see the exchange rate of all the countries
 
   @getAllcountriesExchangeRate
   Scenario Outline: To get the exchange rate of all countries
